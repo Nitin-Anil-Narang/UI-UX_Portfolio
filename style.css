@@ -7,27 +7,65 @@
     box-sizing: border-box;
     font-family: 'DM Sans';
 }
-/* body 
+body
 {
+    margin: 0;
+    padding: 0;
+    /* overflow-y: hidden; */
 
+}
+
+
+.h1-indent
+{  
+    position: relative;
+    left: -140px;
+    padding-top: 50px;
+    text-indent: 1.5em;
+}
+
+.text-desc
+{
+    position: relative;
+    left: -65px;
+}
+
+h1
+{
     
-} */
+    font-family: 'DM Sans';
+    color: #073742;
+}
 
-  
-h1,
 h2 
 {
     padding-top: 10vh;
-    color: black;
-    text-align: center;
+    font-family: 'DM Sans';
+    color: #073742;
 }
-  
+
+#vector
+{
+    position: relative;
+    top: -23px;
+    left: 98.5px;
+    width: 25px;  
+    height: 25px;
+}
+
+#wave
+{
+    position: relative;
+    top: 25px;
+    width: 84px;
+    height: 84px;
+}
 .mb_parallax_container
 {
     height: 100vh;
-    width: 100vw;
-    border-bottom: 0px solid white;
-    padding-top: 20vh;
+    width: 100%;
+    border-bottom: 0px solid #e7faff;
+    padding-top: 10vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,8 +73,8 @@ h2
   
 .mb_parallax_overlay 
 {
-    height: 60vh;
-    width: 60%;
+    height: 80vh;
+    width: 80%;
     margin: auto;
     background-color: white;
     opacity: .9;
@@ -45,14 +83,19 @@ h2
 header
 {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -50px;
+    left: -50px;
     width: 100%;
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+nav
+{
+    position: relative;
+    left: 140px;
 }
   
 .logo
