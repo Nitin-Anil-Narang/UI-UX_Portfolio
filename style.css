@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *
 {
     margin: 0;
@@ -15,6 +15,22 @@ body
 
 }
 
+#Project_1 >h2 
+{  
+    font-size: 28px;
+}
+#pro_1
+{
+   font-size: 24px; 
+}
+#Project_1
+{
+    position: relative;
+    left: -65px;
+    font-family: 'lato';
+
+    
+}
 
 .h1-indent
 {  
@@ -111,4 +127,19 @@ nav
     font-size: 1.2em;
     padding: 15px ;
     color:#073742;
+}
+
+#hot_pot
+{
+    position: relative;
+    left: 440px;
+    top: -280px;
+    width: 590px;
+    height: 341px;
+    border-radius: 5px;
+
+}
+#Group_9
+{
+    font-size: 24px;
 }
