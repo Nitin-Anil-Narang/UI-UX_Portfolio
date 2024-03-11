@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 *
 {
     margin: 0;
@@ -13,6 +15,11 @@ body
     padding: 0;
     /* overflow-y: hidden; */
 
+}
+ins
+{   
+    font-family: 'Caveat';
+    text-decoration: none;
 }
 
 #Project_1 >h2 
@@ -72,9 +79,9 @@ h2
 #wave
 {
     position: relative;
-    top: 25px;
-    width: 84px;
-    height: 84px;
+    top: 5px;
+    width: 50px;
+    height: 50px;
 }
 .mb_parallax_container
 {
