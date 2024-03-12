@@ -42,7 +42,7 @@ ins
 .h1-indent
 {  
     position: relative;
-    left: -140px;
+    left: -185px;
     padding-top: 50px;
     text-indent: 1.5em;
 }
@@ -60,28 +60,36 @@ h1
     color: #073742;
 }
 
-h2 
+h2
 {
     padding-top: 10vh;
     font-family: 'DM Sans';
     color: #073742;
 }
 
+p.pro_1
+{
+    padding-top: 10vh;
+    font-family: 'DM Sans';
+    color: #073742;
+    font-size: 48px;
+}
+
 #vector
 {
     position: relative;
-    top: -23px;
-    left: 98.5px;
-    width: 25px;  
-    height: 25px;
+    top: -30px;
+    left: 150px;
+    width: 30px;  
+    height: 30px;
 }
 
 #wave
 {
     position: relative;
     top: 5px;
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
 }
 .mb_parallax_container
 {
@@ -120,18 +128,25 @@ nav
     position: relative;
     left: 140px;
 }
-  
-.logo
+
+div.about
 {
+    position: relative;
+    top:150px;
+    left:120px;
+    font-size: 28px;
+}
+.logo
+{  
     padding-bottom: 50px;
-    font-size: 2em;
+    font-size: 8em;
     color: #073742;
 }
 
 .navigation >a
 {
     
-    font-size: 1.2em;
+    font-size: 3em;
     padding: 15px ;
     color:#073742;
 }
@@ -139,10 +154,10 @@ nav
 #hot_pot
 {
     position: relative;
-    left: 440px;
-    top: -280px;
-    width: 590px;
-    height: 341px;
+    left: 550px;
+    top: -350px;
+    width: 1180px;
+    height: 682px;
     border-radius: 5px;
 
 }
@@ -151,23 +166,43 @@ nav
     font-size: 24px;
 }
 
-mark {
+mark 
+{
     -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
             animation: 1.5s highlight 1.5s 1 normal forwards;
+    
+    font-family: 'DM Sans';
+    color: #073742;
     background-color: none;
-    background: linear-gradient(90deg, #7efff5 50%, rgba(255, 255, 255, 0) 50%);
+    background: linear-gradient(90deg, #fa7fdb 50%, rgba(255, 255, 255, 0) 50%);
     background-size: 200% 100%;
     background-position: 100% 0;
-  }
+}
+
+mark.second
+{
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+            animation: 1.5s highlight 1.5s 1 normal forwards;
+    
+    font-family: 'DM Sans';
+    color: #073742;
+    background-color: none;
+    background: linear-gradient(90deg, #FFD0B5 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+}
   
-  @-webkit-keyframes highlight {
-    to {
-      background-position: 0 0;
-    }
-  }
-  
-  @keyframes highlight {
-    to {
-      background-position: 0 0;
-    }
-  }
+@-webkit-keyframes highlight 
+{
+to 
+{
+    background-position: 0 0;
+}
+}
+
+@keyframes highlight {
+to 
+{
+    background-position: 0 0;
+}
+}
