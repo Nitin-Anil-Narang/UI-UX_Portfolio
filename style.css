@@ -38,7 +38,45 @@ ins
 
     
 }
+#Project_2
+{
+    font-family:'Lato';
+    
+}
+#pro-2
+{
+   font-size: 24px; 
+}
+#Frame_9
+{
+    position: relative;
+    left: 540px;
+    top: -280px;
+    width: 590px;
+    height: 341px;
+    border-radius: 5px;
 
+}
+#Project_3
+{
+    font-family:'Caveat';
+    position: relative;
+    left: -65px;
+}
+#pro-3
+{
+   font-size: 24px; 
+}
+#Frame_10
+{
+    position: relative;
+    left: 540px;
+    top: -280px;
+    width: 590px;
+    height: 341px;
+    border-radius: 5px;
+
+}
 .h1-indent
 {  
     position: relative;
