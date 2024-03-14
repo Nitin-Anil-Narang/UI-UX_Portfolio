@@ -21,11 +21,12 @@ ins
     text-decoration: none;
 }
 
+
 .stroke
 {
     position: relative;
     top: 105px;
-    left: 830px;
+    left: 819px;
 }
 
 #Project_1 >h2 
@@ -41,8 +42,6 @@ ins
     position: relative;
     left: -65px;
     font-family: 'lato';
-
-    
 }
 #Project_2 >h2 
 {  
@@ -157,7 +156,7 @@ h2
 .mb_parallax_container
 {
     height: 100vh;
-    width: 100%;
+    width: 100vh;
     border-bottom: 0px solid #e7faff;
     padding-top: 10vh;
     background-attachment: fixed;
@@ -196,8 +195,9 @@ div.about
 {
     position: relative;
     top:150px;
-    left:120px;
+    left:350px;
     font-size: 28px;
+    width: 150%;
 }
 .logo
 {  
@@ -272,11 +272,14 @@ to
 }
 }
 
+
+
 .btn1
 {
     position: relative;
     top:135px;
     left: 40%;
+    justify-content: ;
     color: #073742;
     font-family: 'DM Sans';
     font-size: 40px;
@@ -285,6 +288,13 @@ to
     border: white;
     border-radius: 23px;
     background-color: #FF69B4;
+}
+
+#Contact
+{
+    position: relative;
+    left: 500px;
+    width: 100%;
 }
 
 .cnt-title
@@ -298,14 +308,14 @@ to
 {
     position: relative;
     top: -40px;
-    left: 287px;
+    left: 22px;
 }
 
 .cnt-side2
 {
     position: relative;
     top: -38px;
-    left: 1167px;
+    left: 901px;
 }
 
 .cnt-text
